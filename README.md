@@ -5,7 +5,7 @@ hello-world!
 
 <https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-init/中的版本>
 
-< 搜索“没有互联网连接运行kubeadm”>
+ 搜索“没有互联网连接运行kubeadm”
 
 如果没有互联网连接运行kubeadm，您必须预先选择所需版本的主映像：
 
@@ -42,10 +42,15 @@ k8s-dns-dnsmasq-nanny-amd64：$ {DNS_VERSION}）
 
 
 for imageName in ${images[@]} ; 
+
 do
+
   docker pull $ALIYUN_URL/$imageName
+  
   docker tag  $ALIYUN_URL/$imageName $GCR_URL/$imageName
+  
   docker rmi $ALIYUN_URL/$imageName
+  
 done
 
-docker images
+docker images>
