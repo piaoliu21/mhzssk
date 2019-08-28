@@ -31,4 +31,4 @@ docker   tag   $ ALIYUN_URL / $ imageName  $ GCR_URL / $ imageName
 docker   rmi $ ALIYUN_URL / $ imageName
 DONE
 
-码头图片
+docker images
