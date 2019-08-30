@@ -1,7 +1,10 @@
 
 [gcr.io/google-appengine/docker-image-base-deducer](https://hub.docker.com/r/anjia0532/google-appengine.docker-image-base-deducer/tags/)
 -----
-[https://dl.k8s.io/v1.15.0-alpha.3/kubernetes.tar.gz]
+https://dl.k8s.io/v1.15.0-alpha.3/kubernetes.tar.gz
+https://dl.k8s.io/v1.15.0-alpha.3/kubernetes-src.tar.gz
+https://dl.k8s.io/v1.15.0-alpha.3/kubernetes-client-linux-amd64.tar.gz
+https://dl.k8s.io/v1.15.0-alpha.3/kubernetes-server-linux-amd64.tar.gz
 
 https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.15.md
 
